@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+}
+
+body {
+  background-color: var(--yellow);
+}
+
+/* MAIN SECTION */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 200px 0;
+}
+
+.hero {
+  width: 380px;
+  padding: 20px;
+  background-color: var(--white);
+  border: 1px solid var(--gray-950);
+  border-radius: 20px;
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.illustration-article {
+  border-radius: 10px;
+}
+
+.tag-info {
+  width: 25%;
+  padding: 5px;
+  margin: 20px 0 15px 0;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  background-color: var(--yellow);
+}
+
+.date-info {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+h2 {
+  margin: 20px 0 15px 0;
+  font-weight: 800;
+}
+
+.description-info {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--gray-500);
+  line-height: 1.5;
+}
+
+.user-info {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user-info img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.user-info p {
+  font-weight: 700;
+}
